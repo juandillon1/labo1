@@ -33,4 +33,8 @@ public class Arquero extends Personaje{
     public void tirarFlechas(int cantidadDeFlechas) {
         System.out.println("Tirando: " + cantidadDeFlechas + " de flechas");
     }
+
+    public void atacar(Personaje victima) {
+        victima.setVida(victima.getVida() / 2);
+    }
 }

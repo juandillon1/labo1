@@ -3,10 +3,27 @@ public class Personaje {
     private String apellido;
     private int edad;
 
+    private int vida;
+
     public Personaje(String nombre, String apellido, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
+    }
+
+    public Personaje(String nombre, String apellido, int edad, int vida) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.vida = vida;
+    }
+
+    public int getVida() {
+        return vida;
+    }
+
+    public void setVida(int vida) {
+        this.vida = vida;
     }
 
     public void setNombre(String nombre) {

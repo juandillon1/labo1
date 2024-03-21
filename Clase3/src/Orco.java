@@ -13,6 +13,11 @@ public class Orco extends Personaje{
         this.fuerza = fuerza;
     }
 
+    public Orco(String nombre, String apellido, int edad, int fuerza) {
+        super(nombre, apellido, edad);
+        this.fuerza = fuerza;
+    }
+
     public String getTipoGrito() {
         return tipoGrito;
     }
@@ -30,7 +35,7 @@ public class Orco extends Personaje{
     }
 
 
-    public void atacar() {
-        System.out.println("GRRRR... Estoy atacando");
+    public void atacar(Personaje victima) {
+        victima.setVida(0);
     }
 }
