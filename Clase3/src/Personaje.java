@@ -3,7 +3,7 @@ public class Personaje {
     private String apellido;
     private int edad;
 
-    private int vida;
+    private double vida;
 
     public Personaje(String nombre, String apellido, int edad) {
         this.nombre = nombre;
@@ -11,18 +11,18 @@ public class Personaje {
         this.edad = edad;
     }
 
-    public Personaje(String nombre, String apellido, int edad, int vida) {
+    public Personaje(String nombre, String apellido, int edad, double vida) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
         this.vida = vida;
     }
 
-    public int getVida() {
+    public double getVida() {
         return vida;
     }
 
-    public void setVida(int vida) {
+    public void setVida(double vida) {
         this.vida = vida;
     }
 
