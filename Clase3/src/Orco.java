@@ -1,4 +1,4 @@
-public class Orco extends Personaje{
+public class Orco extends Guerrero{
 
     private String tipoGrito;
     private int fuerza;

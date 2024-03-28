@@ -1,4 +1,4 @@
-public class Enano extends Personaje {
+public class Enano extends Guerrero {
     private int cantidadOro;
     public Enano(String nombre, String apellido, int edad) {
         super(nombre, apellido, edad);

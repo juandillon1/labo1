@@ -1,4 +1,4 @@
-public class Arquero extends Personaje{
+public class Arquero extends Guerrero{
     int punteria;
     int habilidad;
     int cantFlechas;
